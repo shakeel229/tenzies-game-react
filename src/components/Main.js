@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Confetti from 'react-confetti'
 import './main.css'
 import { nanoid } from 'nanoid'
@@ -21,6 +21,10 @@ export default function Main() {
         const result = diceNumbers.every(element => {
           if (element.value === diceNumbers[0].value && element.isHeld === true) {
             return true;
+          }
+          else
+          {
+            return false;
           }
         });
       
