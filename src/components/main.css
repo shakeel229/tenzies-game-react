@@ -1,0 +1,59 @@
+body {
+    background: #0B2434;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center ;
+    height: 100vh;
+    
+}
+.box {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    background: #F5F5F5 ;
+    
+ 
+}
+.title {
+    font-size: 40px;
+    margin: 0;
+}
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
+
+.row1 {
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+.rollBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5035FF;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 3.81277px;
+    height: 35.84000015258789px;
+    width: 99.15999603271484px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.384px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
